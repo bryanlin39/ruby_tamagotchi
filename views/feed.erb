@@ -1,0 +1,19 @@
+<h1>Tamagotchi</h1>
+
+<p>Name: <%= @name %></p>
+<p>Hunger: <%= @food %></p>
+<p>Rest: <%= @rest %></p>
+<p>Boredom: <%= @activity %></p>
+<p>Alive: <%= @alive %></p>
+
+<form action='/feed' method='post'>
+<button type='submit' method='post'>Feed</button>
+</form>
+
+<form action='/refresh' method='post'>
+<button type='submit' method='post'>Refresh</button>
+</form>
+
+<form action='/play' method='post'>
+<button type='submit' method='post'>Play</button>
+</form>
